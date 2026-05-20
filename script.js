@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Start the check
             intervalId = setInterval(() => {
                 // 1 in 100 chance
-                if (Math.floor(Math.random() * 100) === 0) {
+                if (Math.floor(Math.random() * 10000) === 0) {
                     triggerJumpscare(overlay, audio);
                 }
             }, 5000); 
