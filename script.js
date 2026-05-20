@@ -12,7 +12,7 @@ toggleBtn.addEventListener('click', () => {
         
         // Start the check
         intervalId = setInterval(() => {
-            if (Math.floor(Math.random() * 10000) === 0) {
+            if (Math.floor(Math.random() * 100) === 0) {
                 triggerJumpscare();
             }
         }, 5000); 
