@@ -15,3 +15,14 @@
     z-index: 9999; /* Ensures it is on top */
     background: black;
 }
+
+.scare-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    z-index: 10000;
+    cursor: pointer;
+}
+
+.active { background-color: green; color: white; }
