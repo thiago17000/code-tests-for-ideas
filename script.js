@@ -52,4 +52,3 @@ function triggerJumpscare(overlay, audio) {
         overlay.classList.add('hidden');
     }, 3000);
 }
-}
