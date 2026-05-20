@@ -1,21 +1,29 @@
-.hidden { display: none; }
-
-#jumpscare-overlay {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    z-index: 9999; /* Ensures it is on top */
-    background: black;
-}.hidden { display: none; }
-
-#jumpscare-overlay {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    z-index: 9999; /* Ensures it is on top */
-    background: black;
+/* Container for the hidden overlay */
+.hidden { 
+    display: none !important; 
 }
 
+#jumpscare-overlay {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    z-index: 9999; 
+    background: black;
+    /* This centers the image in the middle of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jumpscare-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+/* Button positioning */
 .scare-btn {
     position: fixed;
     top: 20px;
@@ -23,6 +31,11 @@
     padding: 10px 20px;
     z-index: 10000;
     cursor: pointer;
+    font-size: 16px;
 }
 
-.active { background-color: green; color: white; }
+.active { 
+    background-color: green; 
+    color: white; 
+    border: none;
+}
