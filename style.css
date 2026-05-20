@@ -1,0 +1,17 @@
+.hidden { display: none; }
+
+#jumpscare-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    z-index: 9999; /* Ensures it is on top */
+    background: black;
+}.hidden { display: none; }
+
+#jumpscare-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    z-index: 9999; /* Ensures it is on top */
+    background: black;
+}
